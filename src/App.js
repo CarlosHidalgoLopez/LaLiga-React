@@ -19,12 +19,12 @@ class App extends Component {
 	<div className="App">
 		<div className="App-Nav">
 			<nav>
-			<div className="App-NavText d-inline">
-			 <span> La Liga</span>
+			<div className="App-NavText d-inline ">
+			 <span className="mr-10px"> La Liga</span>
 			</div>
-			<div className="App-NavMenu d-inline">
-			<Link to="/Vista1"> <span className="ml-5 d-inline"> Acceder Vista 1</span></Link>
-			<Link to="/TodoForm"> <span className="ml-3 d-inline"> Acceder Vista 2</span></Link>
+			<div className="App-NavMenu">
+			<Link to="/Vista1" class="navbar-brand ">  Acceder Vista 1</Link>
+			<Link to="/TodoForm" class="navbar-brand">  Acceder Vista 2</Link>
 			</div>
 			</nav>
 		</div>
