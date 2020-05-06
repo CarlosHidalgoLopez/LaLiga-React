@@ -9,6 +9,7 @@ import logo from './LaLiga.png';
 
 
 
+
 class App extends Component {
   
 
@@ -31,8 +32,10 @@ class App extends Component {
 		<div className="container">	
 			<div className="ImgLogo">	
 			<img src={logo} className="App-logo" alt="logo" />
-		
 			</div>
+		
+		
+			
 		</div>
 	
 		

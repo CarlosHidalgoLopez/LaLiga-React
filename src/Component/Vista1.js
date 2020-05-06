@@ -1,20 +1,19 @@
 
 import React, {Component} from 'react';
-import './App.css';
-import { todos } from './todos.json';
-import TodoForm from './Component/TodoForm.js';
+import '../App.css';
+import { todos } from '../todos.json';
 
 
 
 
-class App extends Component {
+
+class Vista1 extends Component {
   constructor(){
 	super();
 	this.state = {
 	todos
 	}
 	
-	this.handleAddTodo = this.handleAddTodo.bind(this);
 
 }
 
@@ -40,6 +39,13 @@ class App extends Component {
 		)
 		
 	})
+	
+	return(
+	    <div className="row mt-4">
+		{todos}
+		</div>
+		
+		)
 	 
 }
 		
@@ -48,4 +54,4 @@ class App extends Component {
 }
 
 
-export default App;
+export default Vista1;
