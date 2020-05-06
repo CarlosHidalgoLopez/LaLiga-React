@@ -54,3 +54,7 @@ background: linear-gradient(to left, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, Fi
 	
 	color:#000;
 }
+
+.ImgLogo {
+    margin-top: 40px;
+}
